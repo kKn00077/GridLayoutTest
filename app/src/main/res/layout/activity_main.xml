@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="4"
+    tools:context="kn0077.kr.hs.emirim.gridlayout.MainActivity">
+
+    <!--0행 0열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+
+    <!--0행 1열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+
+        android:layout_row="0"
+        android:layout_column="1"
+        />
+
+    <!--0행 3열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_row="0"
+        android:layout_column="3"
+        />
+
+    <!--1행 1열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_row="1"
+        android:layout_column="1"
+        />
+
+    <!--1행 2열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_row="1"
+        android:layout_column="2"
+        />
+
+    <!--1행 3열 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_row="1"
+        android:layout_column="3"
+        />
+
+
+</GridLayout>
